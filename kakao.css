@@ -1,0 +1,26 @@
+
+.friend_lists{
+	list-style: none;
+}
+.friend_lists .friend_list a {
+	color: #000000;
+	text-decoration: none;
+}
+.friend_lists .friend_list a .friend_thumbail {
+	border: solid 2px gray;
+	border-radius: 20px;
+}
+.friend_lists .friend_list a .friend_infor .friend_name{
+	fount-size: 20px;
+	color: #000000;
+
+}
+.friend_lists .friend_list a .friend_infor .friend_intro{
+	font-size: 15px;
+	color: #c8c8c8;
+}
+/*custom*/
+.friend_lists .friend_list a .friend_infor .friend_name{
+	font-size: 30px;
+	color: darkblue;
+}
