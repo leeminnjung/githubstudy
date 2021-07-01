@@ -1,0 +1,66 @@
+/*가상선택자행동관련
+a:link{    나는 잘 안됨 ㅜㅜㅜ 
+	color: red;
+}
+a:active{
+	color: blue;
+}
+a:hover{
+	color: pink;
+}
+input:focus{
+	border: solid red 10;
+}*/
+
+/*일정한규칙을 바탕으로
+li:first-child{
+	color: red;
+}
+li:last-child{
+	color: blue;
+}
+li:nth-child(2){
+	color: gray;
+}
+li:nth-child(2n+1){
+	color: pink;
+}
+li:nth-child(2n){
+	color: green;
+}*/
+
+/*befor/after
+
+li:before{
+	content: "+++";
+}
+li:after{
+	content: "---";
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
