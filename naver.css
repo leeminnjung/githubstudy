@@ -1,0 +1,54 @@
+.business-list {
+	list-style: none;   
+}
+/* 리스앞의 점을 없애는 것 */
+.business-list .business-item a {
+	 color: #000000;
+	 text-decoration: none;
+}
+/*링크의 태생적인 모습을 바꿈*/
+
+.business-list .business-item .type {
+	color: #25ae5e;
+	font-weight: 700;
+	font-size: 12px;
+	;
+}
+/*경제m부분 수식*/
+
+.business-list .business-item .title{
+	color: rgb(32, 32, 32);
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.business-list .business-item .paragraph{
+	color: #404040;
+	font-size: 13px;
+	line-height: 20px;
+}
+/* 문단 */
+
+.business-list .business-item .source,
+.business-list .business-item .date{
+	color: rgb(32, 32, 32);
+	font-size: 12px;
+}
+
+.business-list .business-item .date{
+	color: grey;
+}
+
+.business-list .business-item .date before:{
+	content: "·";
+}
+
+.business-list .business-item a:hover .business-info .title{
+	text-decoration: underline;
+}
+
+
+.business-list .business-item .business-img{
+	float: left;
+}
+/*네이버 코드보고 넣은거*/
