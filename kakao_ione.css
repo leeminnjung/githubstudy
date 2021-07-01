@@ -1,0 +1,48 @@
+body{
+	background-image: url(https://w.namu.la/s/1050ade76808d8da76f2f734ae450d516e37d8e254b26db1b811ddbba96937bf0348a7388aeb4b2ea0527dae74d5dcea2a7e63398d4a3707ed447dc5593a30f318f426b42aa71fc0e27f995179c0a0a1539779696fab5b98d7810390cefe880e4b179e36779ba9f21f05073934e0b508);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.friend_lists{
+	list-style: none;
+}
+.friend_lists .friend_list a {
+	color: #000000;
+	text-decoration: none;
+}
+.friend_lists .friend_list a .friend_thumbail {
+	border: solid 2px gray;
+	border-radius: 20px;
+	float: left;
+}
+.friend_lists .friend_list a .friend_infor .friend_name{
+	fount-size: 17px;
+	color: #000000;
+
+}
+.friend_lists .friend_list a .friend_infor .friend_intro{
+	font-size: 15px;
+	color: #c8c8c8;
+}
+/*custom*/
+.friend_lists .friend_list a .friend_infor .friend_name{
+	font-size: 30px;
+	color: darkblue;  
+}
+#sakuname{
+	color: #f3c5cf;
+}
+#jwname{
+	color: #d9598c;
+}
+#cyname{
+	color: #A7E0E1;
+}
+
+/*html에서 따로 색상을 부여하기 보다는 복습겸 id로 색상 부여 캐스케이팅복습*/
+
+
+
+/*https://w.namu.la/s/1050ade76808d8da76f2f734ae450d516e37d8e254b26db1b811ddbba96937bf0348a7388aeb4b2ea0527dae74d5dcea2a7e63398d4a3707ed447dc5593a30f318f426b42aa71fc0e27f995179c0a0a1539779696fab5b98d7810390cefe880e4b179e36779ba9f21f05073934e0b508*/
