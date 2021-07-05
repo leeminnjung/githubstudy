@@ -1,0 +1,231 @@
+/*z인텍스에 관한 개념설명
+.z-one{
+	position: absolute;
+ /*레이어가 겹쳐서 뒤에있음
+
+	width: 200px;
+	height: 400px;
+	background-color: yellow;
+	/*z-index: 10;
+
+}
+
+.z-two{
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	background-color: blue;
+	/*z-index: 20;
+}*/
+/* 형제관계에 따른 포지션 속성값에 따라 어떻게 
+결과가 나타나는지 */
+
+/*플롯트*/
+/*.left-1{
+	float: left;
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+}
+.right-1{
+	float: right;
+
+	width: 100px;
+	height: 150px;
+	background-color: green;
+}*/
+/* 플룻과 포지션
+header{
+
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+
+}
+
+.left{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+
+}
+
+.center{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+
+}
+
+.right{
+	position: fixed;
+	float: right;
+	width: 300px;
+	height: 200px;
+	background-color: green;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+/*공간을 만들떄 사용하는 태그 
+해더 풋더 메안 섹션 디브 
+ 전부다 블록요서의 성격을 나타남-
+  줄바꿈 현상이 일어나며 y축정렬
+
+section{
+	width: 1200px;
+	/*height: 200px;
+	background-color: orange;
+}*/
+
+
+/*실무팁
+.left-2{
+	float: left;
+	width: 100px;
+	height: 150px;
+	background-color: yellow;
+}
+
+.right-2{
+	float: right;
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+}
+
+footer{
+	
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.clearfix{
+	clear: both;
+}*/
+
+/*.over-box{
+	overflow: hidden;
+
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+}*/
+
+/*over&float*/
+/*.left-2{
+	float: left;
+	width: 100px;
+	height: 150px;
+	background-color: yellow;
+}
+
+.right-2{
+	float: right;
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+}
+
+footer{
+	
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+.clearfix{
+	clear: both;
+}
+
+section{
+	overflow: hidden;
+	width: 800px;
+	background-color: oldlace;
+} */
+/*flex의 정렬 */
+/*.container{
+	display: flex;
+	/*flex-direction: row;
+	/*flex-wrap: wrap;
+	flex-flow: row wrap;
+
+	width: 1200px;
+	border: solid 10px red;
+}
+
+.item{
+	width: 200px;
+}
+
+.one {
+	background-color: yellow;
+	height: 100px;
+}
+
+.two{
+	background-color: blue;
+	height: 200px;
+}
+.three{
+	background-color: orange;
+	height: 300px;
+	/*width: 900px;
+}*/
+/*flex의 정렬
+.container{
+	display: flex;
+	/*flex-direction: row;
+	/*flex-wrap: wrap;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: baseline;
+
+
+	width: 1200px;
+	height: 500px;
+	border: solid 10px red;
+}
+
+.item{
+	width: 200px;
+}
+
+.one {
+	background-color: yellow;
+	height: 100px;
+}
+
+.two{
+	background-color: blue;
+	height: 200px;
+}
+.three{
+	background-color: orange;
+	height: 300px;
+	/*width: 900px;
+}*/
+/*중앙정렬*/
+.center-1{
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+.center-2{
+	position: relative;
+
+	width: 400px;
+	height: 300px;
+	background-color: blue;
+
+	left: 50%;
+	margin-left: -200px;
+}
