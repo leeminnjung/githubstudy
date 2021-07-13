@@ -1,0 +1,181 @@
+@media(max-width: 767px){
+
+	#intro{
+		height: 1150px;
+		background-image: url(../img/mobile/intro/mobile_intro_bg.png);
+	}
+
+	#intro .introwrap{
+		width: 189px;
+		height: 129px;
+
+		margin-left: -94.5px;
+		/*background-color: yellow;*/
+		top: 230px;
+	}		
+
+	#intro .introwrap .logo{
+		width: 189px;
+		height: 129px;
+		
+		background-image: url(../img/mobile/intro/mobile_logo.png);
+	}
+
+	#intro .introwrap .lion,
+	#intro .introwrap .rabbit,
+	#intro .introwrap .bear,
+	#intro .introwrap .monkey,
+	#intro .cloudwrap .dragonfly{
+		display: none;
+	}
+
+	#intro .cloudwrap{
+		height: 350px;
+		top: 280px;
+	}
+
+	#intro .cloudwrap .leftcloud{
+		width: 267px;
+		height: 314px;
+		background-image: url(../img/mobile/intro/mobile_cloud1.png);
+	}
+	#intro .cloudwrap .rightcloud{
+		width: 237px;
+		height: 309px;
+		background-image: url(../img/mobile/intro/mobile_cloud2.png);
+	}
+
+	/*farm1*/
+	#farm1{
+		height: 450px;
+		background-image: url(../img/mobile/farm/farm1/mobile_farm1_bg.png);
+
+	}
+
+	#farm1 .leftrice1 {
+		width: 86px;
+		height: 150px;
+		background-image: url(../img/mobile/farm/farm1/mobile_leftrice.png);
+	}
+	#farm1 .rightrice1 {
+		width: 95px;
+		height: 170px;
+		background-image: url(../img/mobile/farm/farm1/mobile_rightrice.png);
+
+		top: -20px;
+	}
+
+	#farm1 .farmer{
+		width: 160px;
+		height: 250px;
+		background-image: url(../img/mobile/farm/farm1/mobile_farmer.png);
+		
+		margin-left: -69px;
+	}
+
+	#farm1 .farmspacewrap{
+		width: 300px;
+
+		text-align: center;
+
+		left: 50%;
+		margin-left: -150px;
+	}
+
+	#farm1 .farmspacewrap img{
+		width: 79px;
+	}
+
+	#farm1 .farmspacewrap .farmspeech{
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+
+	#farm2{
+		height: 440px;
+		background-image: url(../img/mobile/farm/farm2/mobile_farm2_bg.png);
+	}
+
+	#farm2 .leftrice2 {
+		width: 57px;
+		height: 201px;
+		background-image: url(../img/mobile/farm/farm2/mobile_leftrice2.png);
+	}
+
+	#farm2 .rightrice2 {
+		width: 54px;
+		height: 202px;
+		background-image: url(../img/mobile/farm/farm2/mobile_rightrice2.png);
+	}
+
+	#farm2 .scarecrow {
+		display: none;
+	}
+
+
+	#farm3{
+		height: 500px;
+		background-image: url(../img/mobile/farm/farm3/mobile_farm3_bg.png);
+	}
+
+	#farm3 .farm3window{
+		width: 82px;
+		height: 56px;
+		background-image: url(../img/mobile/farm/farm3/mobile_window.png);
+
+		margin: 10px 0 0  10px;
+	}
+
+
+	#farm3 .machinewrap{
+		width: 200px;
+		height: 150px;
+
+		top: 120px;
+		margin-left: -96px;
+	}
+
+
+	#farm3 .machinewrap .machine1{
+		width: 191px;
+		height: 149px;
+		background-image: url(../img/mobile/farm/farm3/mobile_machine1.png);
+	}
+
+
+	#farm3 .machinewrap .sawshadow,
+	#farm3 .machinewrap .timer,
+	#farm3 .machinewrap .machinbird{
+		display: none;
+	}
+
+	#farm3 .machinewrap .saw1,
+	#farm3 .machinewrap .saw2{
+		width: 31px;
+		height: 31px;
+		background-image: url(../img/mobile/farm/farm3/mobile_saw.png);
+	}
+
+
+	#farm3 .machinewrap .saw1{
+			margin : 50px 0 0 50px
+
+	}
+
+	#farm3 .machinewrap .saw2{
+		margin: 50px 0 0 115px;
+	}
+
+	#farm3 .farmbubble{
+		position: absolute;
+
+		width: 152px;
+
+		left: 50%;
+		margin: 0 0 0 -70px;
+	}
+
+}
+
+

@@ -1,0 +1,90 @@
+/*intro*/
+#intro .introwrap .lion{
+	animation: spinlion 1500ms linear infinite alternate;
+}
+
+@keyframes spinlion{
+	from{
+		transform: rotate(-10deg);
+	}
+	to{
+		transform: rotate(10deg);
+	}
+}
+#intro .introwrap .rabbit{
+	animation: spinrabbit 1500ms linear infinite alternate;
+}
+
+@keyframes spinrabbit{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(5deg);
+	}
+}
+#intro .introwrap .bear{
+	animation: spinbear 1500ms linear infinite alternate;
+}
+
+@keyframes spinbear{
+	from{
+		transform: rotate(10deg);
+	}
+	to{
+		transform: rotate(-10deg);
+	}
+}#intro .introwrap .monkey{
+	animation: spinmonkey 800ms linear infinite alternate;
+}
+
+@keyframes spinmonkey{
+	from{
+		transform: rotate(20deg);
+	}
+	to{
+		transform: rotate(50deg);
+	}
+}
+
+
+#intro .cloudwrap .dragonfly{
+	animation: flydragonfly linear 7s infinite;
+}
+
+@keyframes flydragonfly{
+	from{
+		left: -366px;
+	}
+	to{
+		left: 100%;
+	}
+
+}
+
+#farm3 .machinewrap .timer{
+	animation: rotateTimer 10000ms linear infinite;
+}
+
+@keyframes rotateTimer{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}
+
+#farm3 .machinewrap .saw1{
+	animation: rotateLeftsaw 10000ms linear infinite;
+}
+
+@keyframes rotateLeftsaw{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}
+
+#farm3 .machinewrap .saw2{
+	animation: rotateRightsaw 10000ms linear infinite;
+}
+
+@keyframes rotateRightsaw{
+	from{ transform: rotate(360deg); }
+	to{ transform: rotate(0deg); }
+}
