@@ -88,3 +88,109 @@
 	from{ transform: rotate(360deg); }
 	to{ transform: rotate(0deg); }
 }
+
+
+#forest1 .treewrap .rabbit1{
+	animation: spinRabbit1 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbit1 {
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(10deg); }
+}
+
+#forest1 .treewrap .rabbit2{
+	animation: spinRabbit2 1000ms linear infinite alternate;
+}
+
+@keyframes spinRabbit2 {
+	from{ transform: rotate(10deg);}
+	to{ transform: rotate(0deg);}
+}
+
+
+#forest2 .machinewrap2 .machineLeft{
+	animation: moveleft 1s linear infinite alternate;
+}
+
+@keyframes moveleft{
+	from{left: 30px;}
+	to{left: 0;}
+}
+
+
+#forest2 .machinewrap2 .machineRight{
+	animation: moveright 1s linear infinite alternate;
+}
+
+@keyframes moveright{
+	from{left: -30px;}
+	to{left: 0;}
+}
+
+#forest3 .forest3wrap .smallbird{
+	animation: spinsmallbird 1000ms linear infinite alternate;
+
+}
+
+@keyframes spinsmallbird{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(10deg);}
+}
+
+#forest3 .forest3wrap .bigbird{
+	animation: spinbigbird 1000ms linear infinite alternate;
+
+}
+
+@keyframes spinbigbird{
+	from{transform: rotate(-10deg);}
+	to{transform: rotate(10deg);}
+}
+
+#science .sciencewrap .gly{
+	animation: spingly 1500ms linear infinite alternate;
+}
+
+@keyframes spingly{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(50deg);
+	}
+}
+
+#science .sciencewrap .water{
+	animation: spinwater 1500ms linear infinite alternate;
+}
+
+@keyframes spinwater{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(-50deg);
+	}
+}
+
+
+#night1 .starwrap .star1,
+#night1 .starwrap .star2,
+#night1 .starwrap .star3{
+	animation: plusestar 1s linear infinite alternate;
+}
+
+@keyframes plusestar{
+	from{transform: scale(1);}
+	to{transform: scale(0.8);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
