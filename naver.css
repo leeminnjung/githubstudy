@@ -1,54 +1,380 @@
-.business-list {
-	list-style: none;   
-}
-/* 리스앞의 점을 없애는 것 */
-.business-list .business-item a {
-	 color: #000000;
-	 text-decoration: none;
-}
-/*링크의 태생적인 모습을 바꿈*/
+*{
+	margin: 0;
+	padding: 0;
 
-.business-list .business-item .type {
-	color: #25ae5e;
+	box-sizing: border-box;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+img{
+	vertical-align: middle;
+}
+button{
+	border: none;
+}
+
+input ,textarea{
+	outline: none;
+}
+.clearix{
+	clear: both;
+}
+
+.container{
+	width: 1130px;
+	margin: 0 auto;
+}
+
+
+#main-header{
+	position: relative;
+	background-color: #ffffff;
+}
+
+#main-header .search_area{
+	position: relative;
+	height: 160px;
+	background-color: #ffffff;
+
+	border-bottom: 1px solid #e4e8ed  ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*	display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+
+		height: 160px;
+		background-color: #ffffff;
+
+		border-bottom: 1px solid #e4e8ed  ;
+
+그 영역의 차원을 결정짓는 html속성을 결정짓는 속성ㅇ르 먼저 치고 그다음에 공간에 관련된css속성
+그다음에 텍스트와 관련된 속성을 정렬- 자신만의 작성깃법 코드를 작성할 때  일관성있는 규칙으로 통일성 있게 작성하기
+*/
+	
+}
+
+
+#main-header .search_area .search_wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	
+	position: relative;
+	
+	
+	width: 582px;
+	height: 52px;
+	border: 2px solid #19ce60;
+	
+}
+#main-header .search_wrap input{
+	width: calc(100% - 52px);
+	height: 100%;
+	padding: 13px 15px;
+
+	font-size: 22px;
+	border: none;
+}
+
+#main-header .search_wrap input:focus{
+	outline: none;
+}
+
+#main-header .search_area .search_wrap button{
+	width: 52px;
+	height: 100%;
+	/*위의 서치랍에서 담음*/
+	background-color:#19ce60 ;
+}
+
+#main-header #navbar{
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+#main-header #navbar ul{
+	padding: 11px 0;
+}
+
+
+#main-header #navbar ul li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+#main-header #navbar ul li a{
+	color: #03c75a ;
+	font-size: 15px;
 	font-weight: 700;
+}
+
+/*main*/
+
+main {
+	overflow: hidden;
+	padding-top: 20px;
+}
+main #main_left{
+	float: left;
+	width: 750px;
+	
+}
+
+main #main_right{
+	float: right;
+	width: 350px;
+	height: 2000px;
+	background-color: pink;
+}
+
+
+main #banner_wrap{
+	width: 750px;
+	height: 135px;
+	background-color: black;
+
+	margin-bottom: 12px;
+}
+
+main #news_wrap .news_header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+
+	padding: 22px 0 16px 0;
+
+}
+
+main #news_wrap .news_header h2{
+	font-size: 14px;
+	font-weight: 700px;
+}
+
+main #news_wrap .news_header .news_btn_wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 60px;
+
+}
+main #news_wrap .news_header .news_btn_wrap button{
+	width: 15px;	
+	height: 15px;
+	background-color: blue;
+}
+main #news_wrap .news_lists{
+	overflow: hidden;
+	border: solid 1px #dae1e6;
+}
+main #news_wrap .news_lists .news_list {
+	position: relative;
+	float: left;
+	width: 16.66%;
+	height: 65px;
+	background-color: #ffffff;
+
+	border-bottom: solid 1px #e4e8ed;
+	border-right: solid 1px #e4e8ed;
+
+	text-align: center;
+} 
+main #news_wrap .news_lists .news_list:nth-child(6n){
+	border-right: none;
+}
+
+main #news_wrap .news_lists .news_list:nth-child(19),
+main #news_wrap .news_lists .news_list:nth-child(20),
+main #news_wrap .news_lists .news_list:nth-child(21),
+main #news_wrap .news_lists .news_list:nth-child(22),
+main #news_wrap .news_lists .news_list:nth-child(23),
+main #news_wrap .news_lists .news_list:nth-child(24){
+	border-bottom: none;
+}
+main #news_wrap .news_lists .news_list img{
+	position: relative;
+
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+main #blog_wrap{
+	padding-top: 35px;
+}
+
+main #blog_wrap .blog_header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-bottom: 17px;
+
+}
+
+main #blog_wrap .blog_header .left_header{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+main #blog_wrap .blog_header .left_header h3{
+	font-size: 14px;
+	margin-right: 8px;
+}
+main #blog_wrap .blog_header .left_header span{
 	font-size: 12px;
-	;
-}
-/*경제m부분 수식*/
-
-.business-list .business-item .title{
-	color: rgb(32, 32, 32);
-	font-size: 13px;
-	font-weight: 700;
-}
-
-.business-list .business-item .paragraph{
-	color: #404040;
-	font-size: 13px;
-	line-height: 20px;
-}
-/* 문단 */
-
-.business-list .business-item .source,
-.business-list .business-item .date{
-	color: rgb(32, 32, 32);
-	font-size: 12px;
-}
-
-.business-list .business-item .date{
 	color: grey;
 }
 
-.business-list .business-item .date before:{
-	content: "·";
+main #blog_wrap .blog_header .right_header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
 }
 
-.business-list .business-item a:hover .business-info .title{
-	text-decoration: underline;
+
+main #blog_wrap .blog_header .right_header span{
+	font-size: 12px;
+	color: grey;
+
 }
 
+main #blog_wrap .blog_header .right_header strong{
+	color: #000000;
+}
+main #blog_wrap .blog_nav ul{
+	overflow: hidden;
+	border: solid 1px #eae1e6;
+}
 
-.business-list .business-item .business-img{
+main #blog_wrap .blog_nav ul li{
 	float: left;
+	width: 12.5%;
+	height: 49px;
+	border-right:solid 1px #eae1e6 ;
+	
 }
-/*네이버 코드보고 넣은거*/
+
+main #blog_wrap .blog_nav ul li:last-child{
+	border-right: none;	
+}
+
+main #blog_wrap .blog_nav ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	line-height: 49px;
+	text-align: center;
+
+}
+
+main #blog_wrap .blog_list_wrap{
+	padding-top: 18px;
+	border-bottom: solid 1px #dae1e6;
+}
+
+main #blog_wrap .blog_list_wrap li{
+	margin-bottom: 18px;
+}
+
+main #blog_wrap .blog_list_wrap li a{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+main #blog_wrap .blog_list_wrap  li a img{
+	width: 170px;
+	height: 114px;
+	margin-right: 21p;
+}
+
+main .blog_list_wrap li .blog_list_info{
+	width: 559px;
+	padding-left: 47px;
+} 
+
+main .blog_list_wrap li .blog_list_info span{
+	font-size: 12px;
+	color: #35ae5e;
+}
+
+main .blog_list_wrap li .blog_list_info h4{
+	font-size: 13px;
+
+}
+
+main .blog_list_wrap li .blog_list_info p{
+	font-size: 13px;
+}
+
+main .blog_list_wrap li .blog_list_info  .date_wrap span{
+	color: #505050;
+}
+
+
+main #blog_wrap .blog_media_wrap ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 18px 0;
+
+	border-bottom: solid 1px #dae1e6;
+}
+
+main #blog_wrap .blog_media_wrap .blog_media_info{
+	padding-top: 12px;
+
+}
+
+main #blog_wrap .blog_media_wrap .blog_media_info h4{
+ font-size: 13px;
+}
+
+main #blog_wrap .blog_media_wrap .blog_media_info span{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
